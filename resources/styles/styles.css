@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+
+}
+header{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.ft-nike-shoe-right {}
+
+.ft-nike-shoe-left>h3 {}
+
+.ft-nike-shoe-left>p {}
+
+
+.ft-shop-middle{
+
+}
+
+
+.ft-nike-shoe-left{
+
+}
+.ft-nike-shoe-right>h3{
+
+}
+.ft-nike-shoe-right > p{
+
+}
