@@ -160,8 +160,8 @@ footer {
 .ft-shoe-box {
     display: flex;
     flex-direction: column;
-    height: 190px;
-    width: 180px;
+    height: 180px;
+    width: 150px;
     text-align: center;
     align-items: center;
     justify-content: space-around;
@@ -178,6 +178,8 @@ footer {
 .shoe-image-cart {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100px;
 }
 
 .ft-shop-middle {
