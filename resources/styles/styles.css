@@ -1,36 +1,55 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
     width: 100vw;
     height: 100vh;
 
 }
-header{
+
+header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-ul{
-    display: flex;
-    
+.logo {
+    width: 100px;
+    height: 50px;
 }
-main{
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+    font-size: 0.8rem;
+
+}
+
+main {
     display: flex;
     flex-direction: column;
 
 }
 
-footer{
+footer {
     display: flex;
     width: 100vw;
     height: 20vh;
     align-items: center;
     justify-content: space-between;
 }
+
 .ft-nike-shoe-right {}
 
 .ft-nike-shoe-left>h3 {}
@@ -38,17 +57,11 @@ footer{
 .ft-nike-shoe-left>p {}
 
 
-.ft-shop-middle{
-
-}
+.ft-shop-middle {}
 
 
-.ft-nike-shoe-left{
+.ft-nike-shoe-left {}
 
-}
-.ft-nike-shoe-right>h3{
+.ft-nike-shoe-right>h3 {}
 
-}
-.ft-nike-shoe-right > p{
-
-}
+.ft-nike-shoe-right>p {}
