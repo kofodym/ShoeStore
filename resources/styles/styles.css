@@ -5,103 +5,123 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    width: 100vw;
+    font-family: "Roboto", sans-serif;
+    /* width: 80vw; */
     height: 100vh;
     padding: 10px 50px 5px 50px;
-
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 15vh;
+    height: 10vh;
 }
 
 .logo {
-    width: 100px;
-    height: 50px;
+    width: 130px;
+    height: auto;
+}
+
+img {
+    display: block;
 }
 
 .logo img {
-    width: 100%;
-    height: 100%;
+    width: 40%;
+    height: auto;
+    min-width: 100px;
 }
 
-ul {
+.menu-items {
     display: flex;
     list-style: none;
     width: 300px;
     justify-content: space-between;
     font-size: 0.8rem;
-
+    font-weight: 600;
 }
 
-.icon-buttons {}
+.icon-buttons {
+    width: 150px;
+}
 
 .material-symbols-outlined {
-    font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 24
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.shopping-box {
+    /* background-color: black; */
+    border: 5px double rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.shopping-img {
+    /* background-color: black; */
+    /* border-color: ; */
 }
 
 main {
     display: flex;
     flex-direction: column;
-    height: 60vh;
-
-}
-
-main {
-    display: flex;
-    flex-direction: column;
+    height: 55vh;
     align-items: center;
     justify-content: center;
 }
 
-.shoe-image {
-    width: 300px;
-    height: 300px;
-}
-
 .shoe-image img {
     width: 100%;
-    height: 100%;
+    height: auto;
     z-index: 1;
     bottom: 10px;
+    min-width: 200px;
+    max-width: 300px;
 }
 
 .hero {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
-    font-size: 9rem;
+    font-size: 13rem;
     position: absolute;
     z-index: -1;
-
 }
 
 footer {
     display: flex;
     width: 100vw;
-    height: 20vh;
+    height: 30vh;
     align-items: center;
     justify-content: space-between;
 }
 
-.ft-nike-shoe-right {}
+/* .shoe-size{
+
+} */
+
+.shoe-left img,
+.shoe-right img {
+    width: 110px;
+    height: 100px;
+}
+
+.shoe-box {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ft-nike-shoe-left {}
 
 .ft-nike-shoe-left>h3 {}
 
 .ft-nike-shoe-left>p {}
 
-
 .ft-shop-middle {}
 
-
-.ft-nike-shoe-left {}
+.ft-nike-shoe-right {}
 
 .ft-nike-shoe-right>h3 {}
 
