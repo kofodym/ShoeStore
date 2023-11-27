@@ -1,0 +1,126 @@
+/* PHONE VERSION */
+@media only screen and (max-width: 480px) {
+    header {
+        padding: 2px 2px 0px 2px;
+    }
+
+    .menu-items {
+        font-size: 0.7rem;
+    }
+
+    .wrapper {
+        padding: 0px 20px 30px 20px;
+    }
+
+    .hero {
+        top: 90px;
+    }
+
+    .hero h1 {
+        font-size: 5.5rem;
+        letter-spacing: 1px;
+    }
+
+    .shoe-image {
+        top: 40px;
+        right: -70px;
+    }
+
+    .Big-Shoe {
+        width: 55%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        /* height: 20vh; */
+        align-items: center;
+        justify-content: space-between;
+        /* padding: 0px 50px; */
+    }
+
+    .ft-shop-middle {
+        margin-top: 30px;
+    }
+
+    .ft-nike-shoe-right {
+        margin-top: 30px;
+    }
+}
+
+/* TABLET VERSION */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    header {
+        padding: 5px 5px 0px 5px;
+    }
+
+    .hero h1 {
+        font-size: 7.5rem;
+        top: 100px;
+        right: -140px;
+        letter-spacing: 5px;
+    }
+
+    .menu-items {
+        font-size: 0.8rem;
+    }
+
+    .hero {
+        top: 90px;
+    }
+
+    .shoe-image {
+        top: 30px;
+        right: -85px;
+    }
+
+    .Big-Shoe {
+        width: 60%;
+    }
+
+    .shoe-left img,
+    .shoe-right img {
+        width: 100px;
+        height: auto;
+    }
+}
+
+/* LAPTOP VERSION */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .hero h1 {
+        font-size: 11.5rem;
+        letter-spacing: 5px;
+    }
+
+    .hero {
+        top: 60px;
+    }
+
+    .shoe-image {
+        top: 185px;
+        right: -50px;
+    }
+
+    .Big-Shoe {
+        width: 90%;
+    }
+}
+
+
+/* DESKTOP VERSION */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    .hero h1 {
+        font-size: 15rem;
+    }
+
+    .shoe-image {
+        top: 100px;
+        right: -40px;
+    }
+
+    .Big-Shoe {
+        width: 100%;
+
+    }
+}
