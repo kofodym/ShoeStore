@@ -23,11 +23,11 @@
 
     .shoe-image {
         top: 40px;
-        right: -70px;
+        right: -95px;
     }
 
     .Big-Shoe {
-        width: 55%;
+        width: 50%;
     }
 
     footer {
@@ -71,8 +71,8 @@
     }
 
     .shoe-image {
-        top: 30px;
-        right: -85px;
+        top: 67px;
+        right: -77px;
     }
 
     .Big-Shoe {
@@ -109,7 +109,7 @@
 
 
 /* DESKTOP VERSION */
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
     .hero h1 {
         font-size: 15rem;
     }
